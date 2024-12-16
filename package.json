@@ -1,0 +1,18 @@
+{
+  "name": "openapi-stub-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hey-api/openapi-ts": "0.59.2",
+    "tsup": "8.3.5",
+    "typescript": "5.7.2"
+  }
+}
