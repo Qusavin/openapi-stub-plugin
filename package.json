@@ -1,22 +1,23 @@
 {
-  "name": "openapi-stub-plugin",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "build": "tsup",
-    "start": "npm run build && node ./dist/index.js",
-    "format": "prettier --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@hey-api/client-fetch": "0.5.4",
-    "@hey-api/openapi-ts": "0.59.2",
-    "prettier": "3.4.2",
-    "tsup": "8.3.5",
-    "typescript": "5.7.2"
-  }
+	"name": "openapi-stub-plugin",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsup",
+		"start": "npm run build && node ./dist/index.js",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@hey-api/client-fetch": "0.5.4",
+		"@hey-api/openapi-ts": "0.59.2",
+		"@types/node": "22.10.2",
+		"prettier": "3.4.2",
+		"tsup": "8.3.5",
+		"typescript": "5.7.2"
+	}
 }
